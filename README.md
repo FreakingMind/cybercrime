@@ -1,5 +1,5 @@
 # Cybercrime
-Notebook using machine learning to detect fraud
+Notebook contains machine learning techniques to classify fraud clients.
 
 **ATTENTION**: All data is private
 
