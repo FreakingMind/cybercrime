@@ -26,11 +26,11 @@ Two datasets were availiable:
 
 ## Sampling Experiments
 Due to huge class disbalance I tried different Sampling Techniques from **imblearn**:
-* ***SMOTE*** sampling
+* [***SMOTE***](https://arxiv.org/pdf/1106.1813.pdf) sampling
 > This is oversampling tecnique using KNN. Data scalling is required. 
 > Sampling strategy parameter is responsible for class ration in new data
-* ***SMOTETomek*** sampling
-> This sampling technique combines undersampling by **Tomek links** and oversampling by **SMOTE**
+* [***SMOTETomek***](https://imbalanced-learn.org/stable/generated/imblearn.combine.SMOTETomek.html) sampling
+> This sampling technique combines undersampling by [**Tomek links**](https://imbalanced-learn.org/stable/generated/imblearn.under_sampling.TomekLinks.html) and oversampling by **SMOTE**
 
 ## TODO
 * Train **XGBoost** on sampled data using **HyperOpt**
